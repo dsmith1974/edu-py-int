@@ -17,9 +17,11 @@
 # Using lambda function: Using numpy.array and functools reducr
 #  Using math.prod
 
+# https://www.geeksforgeeks.org/a-product-array-puzzle/
+
 class Challenge:
     def __init__(self):
-        self.lst = [24,12,8,6]
+        self.lst = [1,2,3,4]
 
     def find_product(self, lst):
         left = 1
@@ -27,17 +29,18 @@ class Challenge:
         for ele in lst:
             product.append(left)
             left = left * ele
+        # product now [1, 1, 2, 6]
 
         right = 1
         for i in range(len(lst) - 1, -1, -1):
             product[i] = product[i] * right
             right = right * lst[i]
+        # product now [24, 12, 8, 6]
 
         return product
 
-    def show(self):
-        print(self.lst)
+    def show(self, val):
+        print(val)
 
     def run(self):
-        self.find_product(self.lst)
-        self.show()
+        self.show(self.find_product(self.lst))
