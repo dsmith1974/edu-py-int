@@ -19,6 +19,12 @@
 
 # https://www.geeksforgeeks.org/a-product-array-puzzle/
 
+# [0]*3 = [0,0,0], 3**2 = 9
+# args and kwargs (keyword args) https://realpython.com/python-kwargs-and-args/
+# *iter - unpack
+# **dict - unpack
+# tuples are immutable
+
 class Challenge:
     def __init__(self):
         self.lst = [1,2,3,4]
