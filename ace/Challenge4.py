@@ -5,7 +5,7 @@ class Challenge:
     def do(self):
 
     def show(self):
-        print(self.thing)
+        print(self.thingy)
 
     def run(self):
         self.do()
