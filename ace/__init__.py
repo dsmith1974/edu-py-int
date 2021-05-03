@@ -5,4 +5,7 @@
 
 from . import Challenge1
 from . import Challenge2
-from . import Challenge3
+from . import Challenge4
+from . import Challenge5
+from . import Challenge7
+from . import Challenge8

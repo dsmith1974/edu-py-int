@@ -8,6 +8,9 @@ if __name__ == '__main__':
     # list comprehension
     ace.Challenge1.Challenge().run()
     ace.Challenge2.Challenge().run()
-    ace.Challenge3.Challenge().run()
+    ace.Challenge4.Challenge().run()
+    ace.Challenge5.Challenge().run()
+    ace.Challenge7.Challenge().run()
+    ace.Challenge8.Challenge().run()
 
 
